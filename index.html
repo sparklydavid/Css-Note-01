@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>HotKey</h1>
+    <p>Ctrl + / = comment</p>
+    <p>Alt + up/down = move line</p>
+    <p>Shift + Alt(option)+ F = Format</p>
+    <hr>
+    <p>Genral Notes:</p>
+    <p>Position</p>
+    <p>Static: Default</p>
+
+    <p>Relative:<br>
+    move base on itself, moving it will messup the workflow<br>
+    <br>
+    Absolute:<br>
+    Remove from workflow<br>
+    moved based on it's parent element that's not a static<br>
+    <br>
+    fixed: <br>
+    Always base on entire html file, stay there (rare use)<br>
+    <br>
+    Sticky: (must have top 0 itself)<br>
+    Relative at default, Fixed when scroll down<br>
+   </p>
+
+    <hr>
+
+    <div class="div-auto">
+        <p>Assssssssssssssssssssss<br> is for the <mark>Auto</mark>
+            content<br>Bssssssssssssssssssssssssssssssssssssssssss<br>Cssssssssssssssssssssssssssssssssssssssssss</p>
+        <P>T</P>
+        <P>i</P>
+        <P>T</P>
+        
+    </div>
+    &nbsp;
+    <div class="div-max">
+        <p>This is for the <b>Max</b> content</p>
+    </div>
+    &nbsp;
+    <div class="div-fit">
+        <p>This is for the <b>Fit</b> content, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+            pariatur, vel ipsum itaque blanditiis minima at!</p>
+    </div>
+
+    <hr>
+
+    <div id="div-related">
+        <p>sometext</p>
+    </div>
+
+    <hr>
+
+    <div id="div-test">
+        <p>Text</p>
+    </div>
+
+
+</body>
+
+</html>
